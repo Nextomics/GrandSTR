@@ -32,11 +32,11 @@ For small amount of input STRs provided in pa file, add "-em 0" parameter to Gra
 ```bash
 samtools index hifi.sorted.bam
 samtools faidx hg19.fasta
-python GrandSTR.py test1.pa out1 -rf hg19.fasta -bf hifi.sorted.bam -em 0 -rt hifi
+GrandSTR test1.pa out1 -rf hg19.fasta -bf hifi.sorted.bam -em 0 -rt hifi
 ```
 
 For large amount of input STRs provided in pa file, add "-em 1" parameter to GrandSTR.py program. For example:
 ```bash
 samtools index hifi.sorted.bam
-python GrandSTR.py test1.pa out1 -rf hg19.fasta -bf hifi.sorted.bam -em 1 -rt hifi
+GrandSTR test1.pa out1 -rf hg19.fasta -bf hifi.sorted.bam -em 1 -rt hifi
 ```
