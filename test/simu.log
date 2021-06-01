@@ -1,0 +1,824 @@
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs
+data-type : CCS
+depth : 15.000000
+length-mean : 15000.000000
+length-sd : 5000.000000
+length-min : 100
+length-max : 30000
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 30:50:20
+
+!! ref file test1.simu_ref.fasta
+:::: Reference stats ::::
+
+file name : test1.simu_ref.fasta
+
+ref.1 (len:200063) : STR104098_0_ref1_X
+ref.2 (len:200144) : STR104098_0_ref2_X
+ref.3 (len:200084) : STR106176_0_ref1_X
+ref.4 (len:202127) : STR106176_0_ref2_X
+ref.5 (len:200063) : STR070537_0_ref1_4
+ref.6 (len:200312) : STR070537_0_ref2_4
+ref.7 (len:200060) : STR071869_0_ref1_4
+ref.8 (len:200081) : STR071869_0_ref2_4
+ref.9 (len:200090) : STR081631_0_ref1_6
+ref.10 (len:200198) : STR081631_0_ref2_6
+ref.11 (len:200051) : STR082916_0_ref1_6
+ref.12 (len:200081) : STR082916_0_ref2_6
+ref.13 (len:200081) : STR086483_0_ref1_6
+ref.14 (len:200195) : STR086483_0_ref2_6
+ref.15 (len:200057) : STR020299_0_ref1_12
+ref.16 (len:200156) : STR020299_0_ref2_12
+ref.17 (len:200075) : STR024014_0_ref1_12
+ref.18 (len:201341) : STR024014_0_ref2_12
+ref.19 (len:200087) : STR030369_0_ref1_14
+ref.20 (len:200177) : STR030369_0_ref2_14
+ref.21 (len:200027) : STR028289_0_ref1_14
+ref.22 (len:200045) : STR028289_0_ref2_14
+ref.23 (len:200057) : STR066142_0_ref1_3
+ref.24 (len:201137) : STR066142_0_ref2_3
+ref.25 (len:200088) : STR068017_0_ref1_3
+ref.26 (len:214952) : STR068017_0_ref2_3
+ref.27 (len:200045) : STR055111_0_ref1_2
+ref.28 (len:200072) : STR055111_0_ref2_2
+ref.29 (len:200048) : STR055451_0_ref1_2
+ref.30 (len:203153) : STR055451_0_ref2_2
+ref.31 (len:200030) : STR046225_0_ref1_19
+ref.32 (len:200096) : STR046225_0_ref2_19
+ref.33 (len:200036) : STR046343_0_ref1_19
+ref.34 (len:200300) : STR046343_0_ref2_19
+ref.35 (len:200078) : STR038145_0_ref1_16
+ref.36 (len:200150) : STR038145_0_ref2_16
+ref.37 (len:200045) : STR027626_0_ref1_13
+ref.38 (len:200075) : STR027626_0_ref2_13
+ref.39 (len:200054) : STR098893_0_ref1_9
+ref.40 (len:200372) : STR098893_0_ref2_9
+ref.41 (len:200010) : STR061348_0_ref1_21
+ref.42 (len:200345) : STR061348_0_ref2_21
+ref.43 (len:200060) : STR063353_0_ref1_22
+ref.44 (len:210410) : STR063353_0_ref2_22
+ref.45 (len:200096) : STR096067_0_ref1_8
+ref.46 (len:200327) : STR096067_0_ref2_8
+
+:::: Simulation stats (ref.1 - name: STR104098_0_ref1_X) ::::
+
+read num. : 196
+depth : 15.000000
+read length mean (SD) : 15310.943878 (4936.927232)
+read length min : 6058
+read length max : 29087
+read accuracy mean (SD) : 0.983229 (0.019747)
+substitution rate. : 0.004889
+insertion rate. : 0.008150
+deletion rate. : 0.003978
+
+:::: Simulation stats (ref.2 - name: STR104098_0_ref2_X) ::::
+
+read num. : 214
+depth : 15.000000
+read length mean (SD) : 14028.785047 (4735.261960)
+read length min : 2656
+read length max : 29873
+read accuracy mean (SD) : 0.982643 (0.020583)
+substitution rate. : 0.005303
+insertion rate. : 0.009021
+deletion rate. : 0.003994
+
+:::: Simulation stats (ref.3 - name: STR106176_0_ref1_X) ::::
+
+read num. : 210
+depth : 15.000000
+read length mean (SD) : 14291.714286 (4338.307853)
+read length min : 5918
+read length max : 27493
+read accuracy mean (SD) : 0.983906 (0.021225)
+substitution rate. : 0.004871
+insertion rate. : 0.008078
+deletion rate. : 0.004039
+
+:::: Simulation stats (ref.4 - name: STR106176_0_ref2_X) ::::
+
+read num. : 204
+depth : 15.000000
+read length mean (SD) : 14862.279412 (4557.943380)
+read length min : 6927
+read length max : 29545
+read accuracy mean (SD) : 0.984795 (0.016863)
+substitution rate. : 0.004615
+insertion rate. : 0.007694
+deletion rate. : 0.004024
+
+:::: Simulation stats (ref.5 - name: STR070537_0_ref1_4) ::::
+
+read num. : 205
+depth : 15.000000
+read length mean (SD) : 14638.756098 (4802.042383)
+read length min : 1470
+read length max : 28208
+read accuracy mean (SD) : 0.984634 (0.019529)
+substitution rate. : 0.004511
+insertion rate. : 0.007444
+deletion rate. : 0.004031
+
+:::: Simulation stats (ref.6 - name: STR070537_0_ref2_4) ::::
+
+read num. : 212
+depth : 15.000000
+read length mean (SD) : 14173.018868 (4299.636495)
+read length min : 5793
+read length max : 29440
+read accuracy mean (SD) : 0.983212 (0.019925)
+substitution rate. : 0.004891
+insertion rate. : 0.008108
+deletion rate. : 0.004010
+
+:::: Simulation stats (ref.7 - name: STR071869_0_ref1_4) ::::
+
+read num. : 207
+depth : 15.000000
+read length mean (SD) : 14497.101449 (4851.882666)
+read length min : 4665
+read length max : 28359
+read accuracy mean (SD) : 0.984048 (0.016653)
+substitution rate. : 0.004829
+insertion rate. : 0.007936
+deletion rate. : 0.004051
+
+:::: Simulation stats (ref.8 - name: STR071869_0_ref2_4) ::::
+
+read num. : 204
+depth : 15.000000
+read length mean (SD) : 14711.838235 (4513.517267)
+read length min : 6040
+read length max : 29633
+read accuracy mean (SD) : 0.986217 (0.017829)
+substitution rate. : 0.004195
+insertion rate. : 0.007021
+deletion rate. : 0.003966
+
+:::: Simulation stats (ref.9 - name: STR081631_0_ref1_6) ::::
+
+read num. : 201
+depth : 15.000000
+read length mean (SD) : 14932.089552 (4728.009284)
+read length min : 6815
+read length max : 29649
+read accuracy mean (SD) : 0.983617 (0.021242)
+substitution rate. : 0.005107
+insertion rate. : 0.008474
+deletion rate. : 0.004031
+
+:::: Simulation stats (ref.10 - name: STR081631_0_ref2_6) ::::
+
+read num. : 194
+depth : 15.000000
+read length mean (SD) : 15479.226804 (4880.751321)
+read length min : 4992
+read length max : 29883
+read accuracy mean (SD) : 0.982867 (0.019844)
+substitution rate. : 0.005202
+insertion rate. : 0.008689
+deletion rate. : 0.004078
+
+:::: Simulation stats (ref.11 - name: STR082916_0_ref1_6) ::::
+
+read num. : 205
+depth : 15.000000
+read length mean (SD) : 14637.878049 (5045.188063)
+read length min : 2999
+read length max : 29756
+read accuracy mean (SD) : 0.986853 (0.016312)
+substitution rate. : 0.003785
+insertion rate. : 0.006276
+deletion rate. : 0.004077
+
+:::: Simulation stats (ref.12 - name: STR082916_0_ref2_6) ::::
+
+read num. : 205
+depth : 15.000000
+read length mean (SD) : 14640.073171 (4378.463229)
+read length min : 2788
+read length max : 28045
+read accuracy mean (SD) : 0.984673 (0.017711)
+substitution rate. : 0.004473
+insertion rate. : 0.007546
+deletion rate. : 0.004043
+
+:::: Simulation stats (ref.13 - name: STR086483_0_ref1_6) ::::
+
+read num. : 210
+depth : 15.000000
+read length mean (SD) : 14291.500000 (3978.689055)
+read length min : 6526
+read length max : 29154
+read accuracy mean (SD) : 0.983893 (0.017837)
+substitution rate. : 0.004747
+insertion rate. : 0.007997
+deletion rate. : 0.003960
+
+:::: Simulation stats (ref.14 - name: STR086483_0_ref2_6) ::::
+
+read num. : 208
+depth : 15.000000
+read length mean (SD) : 14437.139423 (4473.391577)
+read length min : 3805
+read length max : 27947
+read accuracy mean (SD) : 0.984912 (0.019053)
+substitution rate. : 0.004325
+insertion rate. : 0.007271
+deletion rate. : 0.003952
+
+:::: Simulation stats (ref.15 - name: STR020299_0_ref1_12) ::::
+
+read num. : 198
+depth : 15.000000
+read length mean (SD) : 15155.833333 (4804.125336)
+read length min : 6706
+read length max : 29512
+read accuracy mean (SD) : 0.984190 (0.019028)
+substitution rate. : 0.004815
+insertion rate. : 0.008080
+deletion rate. : 0.004020
+
+:::: Simulation stats (ref.16 - name: STR020299_0_ref2_12) ::::
+
+read num. : 205
+depth : 15.000000
+read length mean (SD) : 14645.560976 (4428.361332)
+read length min : 6943
+read length max : 28106
+read accuracy mean (SD) : 0.985222 (0.017278)
+substitution rate. : 0.004439
+insertion rate. : 0.007339
+deletion rate. : 0.003959
+
+:::: Simulation stats (ref.17 - name: STR024014_0_ref1_12) ::::
+
+read num. : 203
+depth : 15.000000
+read length mean (SD) : 14783.866995 (4819.954011)
+read length min : 347
+read length max : 29554
+read accuracy mean (SD) : 0.983577 (0.021049)
+substitution rate. : 0.004812
+insertion rate. : 0.007930
+deletion rate. : 0.003952
+
+:::: Simulation stats (ref.18 - name: STR024014_0_ref2_12) ::::
+
+read num. : 201
+depth : 15.000000
+read length mean (SD) : 15025.447761 (4700.489450)
+read length min : 394
+read length max : 28217
+read accuracy mean (SD) : 0.984022 (0.017104)
+substitution rate. : 0.005127
+insertion rate. : 0.008414
+deletion rate. : 0.004007
+
+:::: Simulation stats (ref.19 - name: STR030369_0_ref1_14) ::::
+
+read num. : 211
+depth : 15.000000
+read length mean (SD) : 14224.194313 (4475.142611)
+read length min : 5795
+read length max : 29491
+read accuracy mean (SD) : 0.983967 (0.020489)
+substitution rate. : 0.004731
+insertion rate. : 0.007880
+deletion rate. : 0.003953
+
+:::: Simulation stats (ref.20 - name: STR030369_0_ref2_14) ::::
+
+read num. : 207
+depth : 15.000000
+read length mean (SD) : 14505.579710 (4575.099498)
+read length min : 5160
+read length max : 28907
+read accuracy mean (SD) : 0.984417 (0.019478)
+substitution rate. : 0.004810
+insertion rate. : 0.008043
+deletion rate. : 0.004012
+
+:::: Simulation stats (ref.21 - name: STR028289_0_ref1_14) ::::
+
+read num. : 193
+depth : 15.000000
+read length mean (SD) : 15546.139896 (5087.186994)
+read length min : 7403
+read length max : 29026
+read accuracy mean (SD) : 0.984769 (0.017675)
+substitution rate. : 0.004340
+insertion rate. : 0.007141
+deletion rate. : 0.003977
+
+:::: Simulation stats (ref.22 - name: STR028289_0_ref2_14) ::::
+
+read num. : 212
+depth : 15.000000
+read length mean (SD) : 14154.127358 (4488.239141)
+read length min : 5301
+read length max : 26360
+read accuracy mean (SD) : 0.983209 (0.020491)
+substitution rate. : 0.004940
+insertion rate. : 0.008269
+deletion rate. : 0.004069
+
+:::: Simulation stats (ref.23 - name: STR066142_0_ref1_3) ::::
+
+read num. : 201
+depth : 15.000000
+read length mean (SD) : 14929.626866 (4789.658985)
+read length min : 6490
+read length max : 27704
+read accuracy mean (SD) : 0.982031 (0.020576)
+substitution rate. : 0.005408
+insertion rate. : 0.009007
+deletion rate. : 0.003915
+
+:::: Simulation stats (ref.24 - name: STR066142_0_ref2_3) ::::
+
+read num. : 201
+depth : 15.000000
+read length mean (SD) : 15010.223881 (4744.679574)
+read length min : 5954
+read length max : 28838
+read accuracy mean (SD) : 0.983101 (0.019533)
+substitution rate. : 0.005068
+insertion rate. : 0.008548
+deletion rate. : 0.004027
+
+:::: Simulation stats (ref.25 - name: STR068017_0_ref1_3) ::::
+
+read num. : 205
+depth : 15.000000
+read length mean (SD) : 14640.585366 (4523.650036)
+read length min : 5426
+read length max : 28485
+read accuracy mean (SD) : 0.986039 (0.016242)
+substitution rate. : 0.004135
+insertion rate. : 0.006950
+deletion rate. : 0.004033
+
+:::: Simulation stats (ref.26 - name: STR068017_0_ref2_3) ::::
+
+read num. : 225
+depth : 15.000000
+read length mean (SD) : 14330.133333 (4229.406168)
+read length min : 3815
+read length max : 27855
+read accuracy mean (SD) : 0.981227 (0.022085)
+substitution rate. : 0.005630
+insertion rate. : 0.009351
+deletion rate. : 0.004023
+
+:::: Simulation stats (ref.27 - name: STR055111_0_ref1_2) ::::
+
+read num. : 202
+depth : 15.000000
+read length mean (SD) : 14854.826733 (4763.513096)
+read length min : 6997
+read length max : 27231
+read accuracy mean (SD) : 0.983267 (0.019983)
+substitution rate. : 0.004936
+insertion rate. : 0.008290
+deletion rate. : 0.004007
+
+:::: Simulation stats (ref.28 - name: STR055111_0_ref2_2) ::::
+
+read num. : 195
+depth : 15.000000
+read length mean (SD) : 15390.153846 (4971.609829)
+read length min : 5833
+read length max : 29947
+read accuracy mean (SD) : 0.983908 (0.018031)
+substitution rate. : 0.004869
+insertion rate. : 0.008157
+deletion rate. : 0.003937
+
+:::: Simulation stats (ref.29 - name: STR055451_0_ref1_2) ::::
+
+read num. : 202
+depth : 15.000000
+read length mean (SD) : 14855.049505 (4601.436594)
+read length min : 6048
+read length max : 27998
+read accuracy mean (SD) : 0.984539 (0.019731)
+substitution rate. : 0.004683
+insertion rate. : 0.007768
+deletion rate. : 0.003998
+
+:::: Simulation stats (ref.30 - name: STR055451_0_ref2_2) ::::
+
+read num. : 207
+depth : 15.000000
+read length mean (SD) : 14721.231884 (4691.377483)
+read length min : 5795
+read length max : 28757
+read accuracy mean (SD) : 0.984564 (0.018871)
+substitution rate. : 0.004675
+insertion rate. : 0.007760
+deletion rate. : 0.003975
+
+:::: Simulation stats (ref.31 - name: STR046225_0_ref1_19) ::::
+
+read num. : 198
+depth : 15.000000
+read length mean (SD) : 15153.787879 (4665.372663)
+read length min : 5620
+read length max : 28823
+read accuracy mean (SD) : 0.982617 (0.020864)
+substitution rate. : 0.005358
+insertion rate. : 0.008905
+deletion rate. : 0.004000
+
+:::: Simulation stats (ref.32 - name: STR046225_0_ref2_19) ::::
+
+read num. : 201
+depth : 15.000000
+read length mean (SD) : 14932.537313 (4743.287697)
+read length min : 747
+read length max : 29521
+read accuracy mean (SD) : 0.983613 (0.016700)
+substitution rate. : 0.005020
+insertion rate. : 0.008249
+deletion rate. : 0.004012
+
+:::: Simulation stats (ref.33 - name: STR046343_0_ref1_19) ::::
+
+read num. : 203
+depth : 15.000000
+read length mean (SD) : 14780.985222 (4126.016373)
+read length min : 6947
+read length max : 28902
+read accuracy mean (SD) : 0.985406 (0.017060)
+substitution rate. : 0.004353
+insertion rate. : 0.007374
+deletion rate. : 0.004020
+
+:::: Simulation stats (ref.34 - name: STR046343_0_ref2_19) ::::
+
+read num. : 202
+depth : 15.000000
+read length mean (SD) : 14873.762376 (4656.023784)
+read length min : 6889
+read length max : 28638
+read accuracy mean (SD) : 0.981849 (0.020046)
+substitution rate. : 0.005449
+insertion rate. : 0.009156
+deletion rate. : 0.003976
+
+:::: Simulation stats (ref.35 - name: STR038145_0_ref1_16) ::::
+
+read num. : 208
+depth : 15.000000
+read length mean (SD) : 14428.701923 (4628.579821)
+read length min : 4849
+read length max : 29805
+read accuracy mean (SD) : 0.981289 (0.021930)
+substitution rate. : 0.005828
+insertion rate. : 0.009739
+deletion rate. : 0.004001
+
+:::: Simulation stats (ref.36 - name: STR038145_0_ref2_16) ::::
+
+read num. : 206
+depth : 15.000000
+read length mean (SD) : 14574.029126 (4633.316864)
+read length min : 5136
+read length max : 29336
+read accuracy mean (SD) : 0.983719 (0.017791)
+substitution rate. : 0.005044
+insertion rate. : 0.008407
+deletion rate. : 0.004039
+
+:::: Simulation stats (ref.37 - name: STR027626_0_ref1_13) ::::
+
+read num. : 199
+depth : 15.000000
+read length mean (SD) : 15078.768844 (4971.366302)
+read length min : 4048
+read length max : 29834
+read accuracy mean (SD) : 0.981580 (0.021982)
+substitution rate. : 0.005575
+insertion rate. : 0.009282
+deletion rate. : 0.004036
+
+:::: Simulation stats (ref.38 - name: STR027626_0_ref2_13) ::::
+
+read num. : 205
+depth : 15.000000
+read length mean (SD) : 14639.634146 (4711.010201)
+read length min : 5671
+read length max : 29063
+read accuracy mean (SD) : 0.983396 (0.022082)
+substitution rate. : 0.004780
+insertion rate. : 0.007829
+deletion rate. : 0.003966
+
+:::: Simulation stats (ref.39 - name: STR098893_0_ref1_9) ::::
+
+read num. : 202
+depth : 15.000000
+read length mean (SD) : 14855.495050 (4757.772303)
+read length min : 3675
+read length max : 28519
+read accuracy mean (SD) : 0.984871 (0.018310)
+substitution rate. : 0.004591
+insertion rate. : 0.007617
+deletion rate. : 0.004002
+
+:::: Simulation stats (ref.40 - name: STR098893_0_ref2_9) ::::
+
+read num. : 209
+depth : 15.000000
+read length mean (SD) : 14380.765550 (4551.319611)
+read length min : 766
+read length max : 28382
+read accuracy mean (SD) : 0.984193 (0.017414)
+substitution rate. : 0.004805
+insertion rate. : 0.007830
+deletion rate. : 0.004033
+
+:::: Simulation stats (ref.41 - name: STR061348_0_ref1_21) ::::
+
+read num. : 202
+depth : 15.000000
+read length mean (SD) : 14852.227723 (4558.295450)
+read length min : 4480
+read length max : 29668
+read accuracy mean (SD) : 0.982887 (0.020803)
+substitution rate. : 0.005262
+insertion rate. : 0.008646
+deletion rate. : 0.004014
+
+:::: Simulation stats (ref.42 - name: STR061348_0_ref2_21) ::::
+
+read num. : 207
+depth : 15.000000
+read length mean (SD) : 14517.753623 (4489.252257)
+read length min : 6109
+read length max : 28907
+read accuracy mean (SD) : 0.985662 (0.017267)
+substitution rate. : 0.004268
+insertion rate. : 0.007109
+deletion rate. : 0.003993
+
+:::: Simulation stats (ref.43 - name: STR063353_0_ref1_22) ::::
+
+read num. : 203
+depth : 15.000000
+read length mean (SD) : 14782.758621 (4599.082650)
+read length min : 4969
+read length max : 28081
+read accuracy mean (SD) : 0.985615 (0.021715)
+substitution rate. : 0.004114
+insertion rate. : 0.006904
+deletion rate. : 0.003964
+
+:::: Simulation stats (ref.44 - name: STR063353_0_ref2_22) ::::
+
+read num. : 210
+depth : 15.000000
+read length mean (SD) : 15029.285714 (4647.226316)
+read length min : 5021
+read length max : 28701
+read accuracy mean (SD) : 0.982977 (0.020447)
+substitution rate. : 0.005008
+insertion rate. : 0.008463
+deletion rate. : 0.003950
+
+:::: Simulation stats (ref.45 - name: STR096067_0_ref1_8) ::::
+
+read num. : 199
+depth : 15.000000
+read length mean (SD) : 15082.613065 (4546.666691)
+read length min : 4464
+read length max : 29330
+read accuracy mean (SD) : 0.984873 (0.015488)
+substitution rate. : 0.004507
+insertion rate. : 0.007630
+deletion rate. : 0.004064
+
+:::: Simulation stats (ref.46 - name: STR096067_0_ref2_8) ::::
+
+read num. : 203
+depth : 15.000000
+read length mean (SD) : 14802.487685 (4396.255683)
+read length min : 2604
+read length max : 29063
+read accuracy mean (SD) : 0.985507 (0.016826)
+substitution rate. : 0.004324
+insertion rate. : 0.007196
+deletion rate. : 0.003979
+
+:::: System utilization ::::
+
+CPU time(s) : 7
+Elapsed time(s) : 11
+[M::mm_idx_gen::0.122*0.98] collected minimizers
+[M::mm_idx_gen::0.147*1.52] sorted minimizers
+[M::main::0.147*1.52] loaded/built the index for 23 target sequence(s)
+[M::mm_mapopt_update::0.154*1.50] mid_occ = 100
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 23
+[M::mm_idx_stat::0.160*1.48] distinct minimizers: 413747 (97.58% are singletons); average occurrences: 1.117; average spacing: 9.956; total length: 4601385
+[M::worker_pipeline::19.185*3.22] mapped 9400 sequences
+[M::main] Version: 2.17-r974-dirty
+[M::main] CMD: minimap2 -ax asm10 -t 5 --MD -Y -L --secondary=no test1.simu_ref2.fasta ccs.fasta
+[M::main] Real time: 19.196 sec; CPU: 61.834 sec; Peak RSS: 0.317 GB
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR020299_0_ref1_12:99000-101057" specifies an unknown reference name. Continue anyway.
+The following options are used (included default):
+       BWAMEMOptions	( -k8 -W8 -r7 );
+             CompRep	(0);
+           MatchInfo	([3, -2, -2, -15, -1]);
+              MaxRep	(4000);
+              MinSup	(5);
+         Patternfile	(['test1.simu_infos.pa']);
+          RepeatTime	(5);
+             SeqTech	(Nanopore);
+     SplitAndReAlign	(1);
+          TRFOptions	(2_7_4_80_10_100);
+   Tolerate_mismatch	(None);
+   UserDefinedUniqID	(None);
+               align	(align/);
+           emissionm	(None);
+                  hg	(hg38);
+              hgfile	(test1.simu_ref2.fasta);
+        hmm_del_rate	(0.05);
+     hmm_insert_rate	(0.1);
+        hmm_sub_rate	(0.05);
+     isGapCorrection	(1);
+       minRepBWTSize	(70);
+         minTailSize	(70);
+              outlog	(2);
+   repeatFlankLength	(30);
+          repeatName	(all);
+ specifiedRepeatInfo	(///////);
+      stsBasedFolder	(/home/wangz/miniconda2/envs/repeathmmenv/lib/python2.7/site-packages/RepeatHMM/reference_sts/);
+         transitionm	(None);
+
+          Onebamfile	(hifi.sort.bam);
+      SepbamfileTemp	(None);
+               align	(align/);
+    analysis_file_id	(_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020);
+             bamfile	(hifi.sort.bam);
+      unique_file_id	(.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020);
+
+      p2sp ['str020299_0', 19.333333333333332, [19], 'allocr:19:22, 51:3, 52:9,', 34, 5]
+p2sp end---running time3 mem51
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR024014_0_ref1_12:99000-101075" specifies an unknown reference name. Continue anyway.
+      p2sp ['str024014_0', 25.333333333333332, [26, 443], 'allocr:26:17, 439:1, 440:1, 441:3, 443:2, 444:3, 445:1, 446:1,', 29, 6]
+p2sp end---running time11 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR027626_0_ref1_13:99000-101045" specifies an unknown reference name. Continue anyway.
+      p2sp ['str027626_0', 15.333333333333334, [14, 25], 'allocr:14:1, 15:21, 24:1, 25:13,', 36, 2]
+p2sp end---running time2 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR028289_0_ref1_14:99000-101027" specifies an unknown reference name. Continue anyway.
+      p2sp ['str028289_0', 9.333333333333334, [28, 34], 'allocr:15:4, 28:13, 29:1, 33:1, 34:13,', 32, 1]
+p2sp end---running time2 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR030369_0_ref1_14:99000-101087" specifies an unknown reference name. Continue anyway.
+      p2sp ['str030369_0', 29.333333333333332, [29, 59], 'allocr:29:19, 57:1, 58:7, 59:8,', 35, 3]
+p2sp end---running time2 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR038145_0_ref1_16:99000-101078" specifies an unknown reference name. Continue anyway.
+      p2sp ['str038145_0', 26.333333333333332, [26], 'allocr:26:11, 49:3, 50:6,', 20, 6]
+p2sp end---running time4 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR046225_0_ref1_19:99000-101030" specifies an unknown reference name. Continue anyway.
+      p2sp ['str046225_0', 10.333333333333334, [10], 'allocr:10:13, 31:1, 32:10,', 24, 2]
+p2sp end---running time2 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR046343_0_ref1_19:99000-101036" specifies an unknown reference name. Continue anyway.
+      p2sp ['str046343_0', 12.333333333333334, [12, 99], 'allocr:11:1, 12:16, 97:2, 98:1, 99:8, 100:5,', 33, 6]
+p2sp end---running time4 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR055111_0_ref1_2:99000-101045" specifies an unknown reference name. Continue anyway.
+      p2sp ['str055111_0', 15.333333333333334, [15, 25], 'allocr:15:4, 16:11, 24:3, 25:12,', 30, 2]
+p2sp end---running time2 mem81
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR055451_0_ref1_2:99000-101048" specifies an unknown reference name. Continue anyway.
+      p2sp ['str055451_0', 16.333333333333332, [16, 16], 'allocr:16:16, 1033:1, 1036:1, 1037:1, 1039:1, 1041:1,', 21, 9]
+p2sp end---running time13 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR061348_0_ref1_21:99000-101010" specifies an unknown reference name. Continue anyway.
+      p2sp ['str061348_0', 2.2, [0], 'allocr:2:16, 69:8,', 24, 2]
+p2sp end---running time3 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR063353_0_ref1_22:99000-101060" specifies an unknown reference name. Continue anyway.
+      p2sp ['str063353_0', 12.2, [12], 'allocr:12:15,', 15, 16]
+p2sp end---running time66 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR066142_0_ref1_3:99000-101057" specifies an unknown reference name. Continue anyway.
+      p2sp ['str066142_0', 19.333333333333332, [19, 376], 'allocr:19:2, 20:11, 372:1, 373:1, 374:1, 375:3, 376:4, 377:1, 378:2,', 26, 8]
+p2sp end---running time6 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR068017_0_ref1_3:99000-101088" specifies an unknown reference name. Continue anyway.
+      p2sp ['str068017_0', 22.25, [22], 'allocr:22:29,', 29, 11]
+p2sp end---running time98 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR070537_0_ref1_4:99000-101063" specifies an unknown reference name. Continue anyway.
+      p2sp ['str070537_0', 21.333333333333332, [21, 103], 'allocr:20:1, 21:22, 101:1, 103:4, 104:5,', 33, 6]
+p2sp end---running time3 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR071869_0_ref1_4:99000-101060" specifies an unknown reference name. Continue anyway.
+      p2sp ['str071869_0', 20.333333333333332, [20, 27], 'allocr:19:1, 20:17, 26:1, 27:19,', 38, 4]
+p2sp end---running time2 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR081631_0_ref1_6:99000-101090" specifies an unknown reference name. Continue anyway.
+      p2sp ['str081631_0', 30.333333333333332, [30, 65], 'allocr:30:17, 63:1, 65:4, 66:8,', 30, 2]
+p2sp end---running time2 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR082916_0_ref1_6:99000-101051" specifies an unknown reference name. Continue anyway.
+      p2sp ['str082916_0', 17.333333333333332, [17], 'allocr:17:20, 27:16,', 36, 4]
+p2sp end---running time2 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR086483_0_ref1_6:99000-101081" specifies an unknown reference name. Continue anyway.
+      p2sp ['str086483_0', 27.333333333333332, [47, 47], 'allocr:27:1, 28:3, 46:1, 47:16, 66:1, 83:1, 84:5, 85:2, 86:1,', 31, 1]
+p2sp end---running time2 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR096067_0_ref1_8:99000-101096" specifies an unknown reference name. Continue anyway.
+      p2sp ['str096067_0', 32.333333333333336, [32, 32], 'allocr:32:18, 106:2, 107:1, 109:1,', 22, 2]
+p2sp end---running time2 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR098893_0_ref1_9:99000-101054" specifies an unknown reference name. Continue anyway.
+      p2sp ['str098893_0', 18.333333333333332, [123, 125], 'allocr:19:13, 121:1, 123:2, 124:13, 125:5,', 34, 6]
+p2sp end---running time3 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR104098_0_ref1_X:99000-101063" specifies an unknown reference name. Continue anyway.
+      p2sp ['str104098_0', 21.333333333333332, [21], 'allocr:21:15, 48:14,', 29, 2]
+p2sp end---running time2 mem181
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[main_samview] region "STR106176_0_ref1_X:99000-101084" specifies an unknown reference name. Continue anyway.
+      p2sp ['str106176_0', 28.333333333333332, [28, 702], 'allocr:28:17, 700:1, 701:2, 702:2, 703:2, 704:2, 705:1, 706:1,', 28, 3]
+p2sp end---running time17 mem181
+
+      p2sp ['str020299_0', 19.333333333333332, [19, 19], 'allocr:19:22, 51:3, 52:9,', 34, 5]
+      p2sp ['str024014_0', 25.333333333333332, [26, 443], 'allocr:26:17, 439:1, 440:1, 441:3, 443:2, 444:3, 445:1, 446:1,', 29, 6]
+      p2sp ['str027626_0', 15.333333333333334, [14, 25], 'allocr:14:1, 15:21, 24:1, 25:13,', 36, 2]
+      p2sp ['str028289_0', 9.333333333333334, [28, 34], 'allocr:15:4, 28:13, 29:1, 33:1, 34:13,', 32, 1]
+      p2sp ['str030369_0', 29.333333333333332, [29, 59], 'allocr:29:19, 57:1, 58:7, 59:8,', 35, 3]
+      p2sp ['str038145_0', 26.333333333333332, [26, 26], 'allocr:26:11, 49:3, 50:6,', 20, 6]
+      p2sp ['str046225_0', 10.333333333333334, [10, 10], 'allocr:10:13, 31:1, 32:10,', 24, 2]
+      p2sp ['str046343_0', 12.333333333333334, [12, 99], 'allocr:11:1, 12:16, 97:2, 98:1, 99:8, 100:5,', 33, 6]
+      p2sp ['str055111_0', 15.333333333333334, [15, 25], 'allocr:15:4, 16:11, 24:3, 25:12,', 30, 2]
+      p2sp ['str055451_0', 16.333333333333332, [16, 16], 'allocr:16:16, 1033:1, 1036:1, 1037:1, 1039:1, 1041:1,', 21, 9]
+      p2sp ['str061348_0', 2.2, [0, 0], 'allocr:2:16, 69:8,', 24, 2]
+      p2sp ['str063353_0', 12.2, [12, 12], 'allocr:12:15,', 15, 16]
+      p2sp ['str066142_0', 19.333333333333332, [19, 376], 'allocr:19:2, 20:11, 372:1, 373:1, 374:1, 375:3, 376:4, 377:1, 378:2,', 26, 8]
+      p2sp ['str068017_0', 22.25, [22, 22], 'allocr:22:29,', 29, 11]
+      p2sp ['str070537_0', 21.333333333333332, [21, 103], 'allocr:20:1, 21:22, 101:1, 103:4, 104:5,', 33, 6]
+      p2sp ['str071869_0', 20.333333333333332, [20, 27], 'allocr:19:1, 20:17, 26:1, 27:19,', 38, 4]
+      p2sp ['str081631_0', 30.333333333333332, [30, 65], 'allocr:30:17, 63:1, 65:4, 66:8,', 30, 2]
+      p2sp ['str082916_0', 17.333333333333332, [17, 17], 'allocr:17:20, 27:16,', 36, 4]
+      p2sp ['str086483_0', 27.333333333333332, [47, 47], 'allocr:27:1, 28:3, 46:1, 47:16, 66:1, 83:1, 84:5, 85:2, 86:1,', 31, 1]
+      p2sp ['str096067_0', 32.333333333333336, [32, 32], 'allocr:32:18, 106:2, 107:1, 109:1,', 22, 2]
+      p2sp ['str098893_0', 18.333333333333332, [123, 125], 'allocr:19:13, 121:1, 123:2, 124:13, 125:5,', 34, 6]
+      p2sp ['str104098_0', 21.333333333333332, [21, 21], 'allocr:21:15, 48:14,', 29, 2]
+      p2sp ['str106176_0', 28.333333333333332, [28, 702], 'allocr:28:17, 700:1, 701:2, 702:2, 703:2, 704:2, 705:1, 706:1,', 28, 3]
+
+ 	p2sp
+str020299_0	 19 19;
+str024014_0	 26 443;
+str027626_0	 14 25;
+str028289_0	 28 34;
+str030369_0	 29 59;
+str038145_0	 26 26;
+str046225_0	 10 10;
+str046343_0	 12 99;
+str055111_0	 15 25;
+str055451_0	 16 16;
+str061348_0	 0 0;
+str063353_0	 12 12;
+str066142_0	 19 376;
+str068017_0	 22 22;
+str070537_0	 21 103;
+str071869_0	 20 27;
+str081631_0	 30 65;
+str082916_0	 17 17;
+str086483_0	 47 47;
+str096067_0	 32 32;
+str098893_0	 123 125;
+str104098_0	 21 21;
+str106176_0	 28 702;
+
+('The result is in', 'logbam/RepBAM_all.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.log')
+DeprecationWarning: 'source deactivate' is deprecated. Use 'conda deactivate'.
+[1] "RMSE 3715.00444145091"
+[1] "pearson correlation between reads and reference: 0.510947009599885"
+Saving 7 x 7 in image
+`geom_smooth()` using formula 'y ~ x'
+[1] "RMSE 4380.75393054666"
+[1] "pearson correlation between reads and reference: 0.113221657158373"
+Saving 7 x 7 in image
+`geom_smooth()` using formula 'y ~ x'
