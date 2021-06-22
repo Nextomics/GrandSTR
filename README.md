@@ -15,13 +15,10 @@ Python packages:
 Dependencies for install:
 - cython: 0.29.21 or higher
 
-Third party softwares:
-- trf: 4.09.1
-
 
 ## Install
 
-To build align.so, GrandSTR_lib.so, utils_lib.so, deal_str.so, etc., run:
+To build align.so, GrandSTR_lib.so, utils_lib.so, deal_str.so, run:
 
 ```bash
 python setup.py build_ext -i
