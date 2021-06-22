@@ -1,18 +1,18 @@
 INFO: Input BAM file is hifi.sort.bam
-INFO: STR020299_0_ref1_12 [100000, 100057]
-INFO: splitBAM1= samtools view hifi.sort.bam STR020299_0_ref1_12:99000-101057>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR020299_0_ref1_12 [100000, 100099]
+INFO: splitBAM1= samtools view hifi.sort.bam STR020299_0_ref1_12:99000-101099>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAG', 'AGC', 'GCA', 'CTG', 'GCT', 'TGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 9
-INFO: short_repeat_id_list 1
-INFO: repeat_id_list 34
+INFO: no_repeat_id_list 6
+INFO: short_repeat_id_list 3
+INFO: repeat_id_list 36
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 34 5
+INFO: nonRepeatinLongRead= 34 3
 INFO: tol_info=['', 0, 0]
-INFO: allocr:19:22, 51:3, 52:9, 
+INFO: allocr:33:18, 82:3, 83:8, 84:5, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -21,20 +21,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str020299_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR024014_0_ref1_12 [100000, 100075]
-INFO: splitBAM1= samtools view hifi.sort.bam STR024014_0_ref1_12:99000-101075>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR024014_0_ref1_12 [100000, 100042]
+INFO: splitBAM1= samtools view hifi.sort.bam STR024014_0_ref1_12:99000-101042>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CTG', 'TGC', 'GCT', 'CAG', 'GCA', 'AGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 8
-INFO: short_repeat_id_list 2
-INFO: repeat_id_list 34
+INFO: no_repeat_id_list 23
+INFO: short_repeat_id_list 4
+INFO: repeat_id_list 17
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 29 6
+INFO: nonRepeatinLongRead= 26 7
 INFO: tol_info=['', 0, 0]
-INFO: allocr:26:17, 439:1, 440:1, 441:3, 443:2, 444:3, 445:1, 446:1, 
+INFO: allocr:14:2, 15:16, 360:1, 361:3, 362:2, 363:2, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -49,14 +49,14 @@ INFO: patset ['CGG', 'GGC', 'GCG', 'CCG', 'GCC', 'CGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 25
+INFO: no_repeat_id_list 21
 INFO: short_repeat_id_list 0
-INFO: repeat_id_list 14
+INFO: repeat_id_list 22
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 36 2
+INFO: nonRepeatinLongRead= 39 2
 INFO: tol_info=['', 0, 0]
-INFO: allocr:14:1, 15:21, 24:1, 25:13, 
+INFO: allocr:15:16, 16:1, 25:22, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -65,20 +65,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str027626_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR028289_0_ref1_14 [100000, 100027]
-INFO: splitBAM1= samtools view hifi.sort.bam STR028289_0_ref1_14:99000-101027>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR028289_0_ref1_14 [100000, 100030]
+INFO: splitBAM1= samtools view hifi.sort.bam STR028289_0_ref1_14:99000-101030>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CGG', 'GGC', 'GCG', 'CCG', 'GCC', 'CGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 26
+INFO: no_repeat_id_list 41
 INFO: short_repeat_id_list 0
-INFO: repeat_id_list 7
+INFO: repeat_id_list 0
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 32 1
+INFO: nonRepeatinLongRead= 36 1
 INFO: tol_info=['', 0, 0]
-INFO: allocr:15:4, 28:13, 29:1, 33:1, 34:13, 
+INFO: allocr:10:3, 12:3, 13:1, 29:19, 30:1, 31:9, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -87,20 +87,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str028289_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR030369_0_ref1_14 [100000, 100087]
-INFO: splitBAM1= samtools view hifi.sort.bam STR030369_0_ref1_14:99000-101087>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR030369_0_ref1_14 [100000, 100078]
+INFO: splitBAM1= samtools view hifi.sort.bam STR030369_0_ref1_14:99000-101078>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CTG', 'TGC', 'GCT', 'CAG', 'GCA', 'AGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: no_repeat_id_list 6
 INFO: short_repeat_id_list 1
-INFO: repeat_id_list 36
+INFO: repeat_id_list 27
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 35 3
+INFO: nonRepeatinLongRead= 26 2
 INFO: tol_info=['', 0, 0]
-INFO: allocr:29:19, 57:1, 58:7, 59:8, 
+INFO: allocr:26:12, 78:5, 79:4, 80:5, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -109,20 +109,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str030369_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR038145_0_ref1_16 [100000, 100078]
-INFO: splitBAM1= samtools view hifi.sort.bam STR038145_0_ref1_16:99000-101078>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR038145_0_ref1_16 [100000, 100066]
+INFO: splitBAM1= samtools view hifi.sort.bam STR038145_0_ref1_16:99000-101066>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CTG', 'TGC', 'GCT', 'CAG', 'GCA', 'AGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 11
-INFO: short_repeat_id_list 1
-INFO: repeat_id_list 21
+INFO: no_repeat_id_list 8
+INFO: short_repeat_id_list 0
+INFO: repeat_id_list 33
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 20 6
+INFO: nonRepeatinLongRead= 33 3
 INFO: tol_info=['', 0, 0]
-INFO: allocr:26:11, 49:3, 50:6, 
+INFO: allocr:22:18, 50:1, 51:3, 52:3, 53:8, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -131,20 +131,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str038145_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR046225_0_ref1_19 [100000, 100030]
-INFO: splitBAM1= samtools view hifi.sort.bam STR046225_0_ref1_19:99000-101030>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR046225_0_ref1_19 [100000, 100015]
+INFO: splitBAM1= samtools view hifi.sort.bam STR046225_0_ref1_19:99000-101015>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CTG', 'TGC', 'GCT', 'CAG', 'GCA', 'AGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 15
+INFO: no_repeat_id_list 14
 INFO: short_repeat_id_list 0
-INFO: repeat_id_list 11
+INFO: repeat_id_list 23
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 24 2
+INFO: nonRepeatinLongRead= 34 3
 INFO: tol_info=['', 0, 0]
-INFO: allocr:10:13, 31:1, 32:10, 
+INFO: allocr:5:11, 22:1, 23:22, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -153,20 +153,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str046225_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR046343_0_ref1_19 [100000, 100036]
-INFO: splitBAM1= samtools view hifi.sort.bam STR046343_0_ref1_19:99000-101036>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR046343_0_ref1_19 [100000, 100081]
+INFO: splitBAM1= samtools view hifi.sort.bam STR046343_0_ref1_19:99000-101081>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CCG', 'CGC', 'GCC', 'CGG', 'GCG', 'GGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 23
-INFO: short_repeat_id_list 1
-INFO: repeat_id_list 19
+INFO: no_repeat_id_list 6
+INFO: short_repeat_id_list 2
+INFO: repeat_id_list 29
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 33 6
+INFO: nonRepeatinLongRead= 28 4
 INFO: tol_info=['', 0, 0]
-INFO: allocr:11:1, 12:16, 97:2, 98:1, 99:8, 100:5, 
+INFO: allocr:26:1, 27:17, 103:1, 104:2, 105:3, 106:4, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -181,14 +181,14 @@ INFO: patset ['CGG', 'GGC', 'GCG', 'CCG', 'GCC', 'CGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 17
+INFO: no_repeat_id_list 26
 INFO: short_repeat_id_list 0
-INFO: repeat_id_list 15
+INFO: repeat_id_list 14
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 30 2
+INFO: nonRepeatinLongRead= 31 6
 INFO: tol_info=['', 0, 0]
-INFO: allocr:15:4, 16:11, 24:3, 25:12, 
+INFO: allocr:15:1, 16:16, 24:2, 25:12, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -197,20 +197,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str055111_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR055451_0_ref1_2 [100000, 100048]
-INFO: splitBAM1= samtools view hifi.sort.bam STR055451_0_ref1_2:99000-101048>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR055451_0_ref1_2 [100000, 100030]
+INFO: splitBAM1= samtools view hifi.sort.bam STR055451_0_ref1_2:99000-101030>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAG', 'AGC', 'GCA', 'CTG', 'GCT', 'TGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 28
-INFO: short_repeat_id_list 6
-INFO: repeat_id_list 13
+INFO: no_repeat_id_list 26
+INFO: short_repeat_id_list 4
+INFO: repeat_id_list 11
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 21 9
+INFO: nonRepeatinLongRead= 17 7
 INFO: tol_info=['', 0, 0]
-INFO: allocr:16:16, 1033:1, 1036:1, 1037:1, 1039:1, 1041:1, 
+INFO: allocr:10:12, 11:1, 831:1, 841:1, 843:1, 844:1, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -225,14 +225,14 @@ INFO: patset ['CGGGG', 'GGGGC', 'GGGCG', 'GGCGG', 'GCGGG', 'CCCCG', 'GCCCC', 'CG
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 20
+INFO: no_repeat_id_list 27
 INFO: short_repeat_id_list 0
-INFO: repeat_id_list 9
+INFO: repeat_id_list 21
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 24 2
+INFO: nonRepeatinLongRead= 41 2
 INFO: tol_info=['', 0, 0]
-INFO: allocr:2:16, 69:8, 
+INFO: allocr:2:22, 60:2, 61:17, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -241,20 +241,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str061348_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR063353_0_ref1_22 [100000, 100060]
-INFO: splitBAM1= samtools view hifi.sort.bam STR063353_0_ref1_22:99000-101060>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR063353_0_ref1_22 [100000, 100135]
+INFO: splitBAM1= samtools view hifi.sort.bam STR063353_0_ref1_22:99000-101135>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CTATT', 'TATTC', 'ATTCT', 'TTCTA', 'TCTAT', 'AATAG', 'GAATA', 'AGAAT', 'TAGAA', 'ATAGA']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 27
-INFO: short_repeat_id_list 23
-INFO: repeat_id_list 41
+INFO: no_repeat_id_list 41
+INFO: short_repeat_id_list 39
+INFO: repeat_id_list 56
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 15 16
+INFO: nonRepeatinLongRead= 17 19
 INFO: tol_info=['', 0, 0]
-INFO: allocr:12:15, 
+INFO: allocr:27:17, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -263,20 +263,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str063353_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR066142_0_ref1_3 [100000, 100057]
-INFO: splitBAM1= samtools view hifi.sort.bam STR066142_0_ref1_3:99000-101057>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR066142_0_ref1_3 [100000, 100027]
+INFO: splitBAM1= samtools view hifi.sort.bam STR066142_0_ref1_3:99000-101027>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAG', 'AGC', 'GCA', 'CTG', 'GCT', 'TGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 10
-INFO: short_repeat_id_list 1
-INFO: repeat_id_list 26
+INFO: no_repeat_id_list 22
+INFO: short_repeat_id_list 2
+INFO: repeat_id_list 19
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 26 8
+INFO: nonRepeatinLongRead= 28 4
 INFO: tol_info=['', 0, 0]
-INFO: allocr:19:2, 20:11, 372:1, 373:1, 374:1, 375:3, 376:4, 377:1, 378:2, 
+INFO: allocr:10:14, 106:3, 107:7, 108:4, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -285,20 +285,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str066142_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR068017_0_ref1_3 [100000, 100088]
-INFO: splitBAM1= samtools view hifi.sort.bam STR068017_0_ref1_3:99000-101088>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR068017_0_ref1_3 [100000, 100120]
+INFO: splitBAM1= samtools view hifi.sort.bam STR068017_0_ref1_3:99000-101120>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAGG', 'AGGC', 'GGCA', 'GCAG', 'CCTG', 'GCCT', 'TGCC', 'CTGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 27
-INFO: short_repeat_id_list 25
-INFO: repeat_id_list 55
+INFO: no_repeat_id_list 36
+INFO: short_repeat_id_list 33
+INFO: repeat_id_list 46
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 29 11
+INFO: nonRepeatinLongRead= 14 21
 INFO: tol_info=['', 0, 0]
-INFO: allocr:22:29, 
+INFO: allocr:30:14, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -307,20 +307,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str068017_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR070537_0_ref1_4 [100000, 100063]
-INFO: splitBAM1= samtools view hifi.sort.bam STR070537_0_ref1_4:99000-101063>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR070537_0_ref1_4 [100000, 100054]
+INFO: splitBAM1= samtools view hifi.sort.bam STR070537_0_ref1_4:99000-101054>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAG', 'AGC', 'GCA', 'CTG', 'GCT', 'TGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 9
+INFO: no_repeat_id_list 8
 INFO: short_repeat_id_list 1
-INFO: repeat_id_list 35
+INFO: repeat_id_list 33
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 33 6
+INFO: nonRepeatinLongRead= 35 5
 INFO: tol_info=['', 0, 0]
-INFO: allocr:20:1, 21:22, 101:1, 103:4, 104:5, 
+INFO: allocr:17:1, 18:17, 109:1, 110:1, 111:3, 112:6, 113:6, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -335,14 +335,14 @@ INFO: patset ['CCG', 'CGC', 'GCC', 'CGG', 'GCG', 'GGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 6
-INFO: short_repeat_id_list 1
+INFO: no_repeat_id_list 3
+INFO: short_repeat_id_list 0
 INFO: repeat_id_list 37
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 38 4
+INFO: nonRepeatinLongRead= 38 0
 INFO: tol_info=['', 0, 0]
-INFO: allocr:19:1, 20:17, 26:1, 27:19, 
+INFO: allocr:19:1, 20:14, 27:1, 28:22, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -351,20 +351,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str071869_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR081631_0_ref1_6 [100000, 100090]
-INFO: splitBAM1= samtools view hifi.sort.bam STR081631_0_ref1_6:99000-101090>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR081631_0_ref1_6 [100000, 100054]
+INFO: splitBAM1= samtools view hifi.sort.bam STR081631_0_ref1_6:99000-101054>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CTG', 'TGC', 'GCT', 'CAG', 'GCA', 'AGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: no_repeat_id_list 6
-INFO: short_repeat_id_list 2
-INFO: repeat_id_list 32
+INFO: short_repeat_id_list 0
+INFO: repeat_id_list 27
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 30 2
+INFO: nonRepeatinLongRead= 27 2
 INFO: tol_info=['', 0, 0]
-INFO: allocr:30:17, 63:1, 65:4, 66:8, 
+INFO: allocr:18:10, 83:2, 84:5, 85:4, 86:5, 87:1, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -379,14 +379,14 @@ INFO: patset ['CAG', 'AGC', 'GCA', 'CTG', 'GCT', 'TGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 14
+INFO: no_repeat_id_list 11
 INFO: short_repeat_id_list 0
-INFO: repeat_id_list 31
+INFO: repeat_id_list 25
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 36 4
+INFO: nonRepeatinLongRead= 32 2
 INFO: tol_info=['', 0, 0]
-INFO: allocr:17:20, 27:16, 
+INFO: allocr:16:2, 17:17, 18:1, 27:12, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -395,20 +395,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str082916_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR086483_0_ref1_6 [100000, 100081]
-INFO: splitBAM1= samtools view hifi.sort.bam STR086483_0_ref1_6:99000-101081>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR086483_0_ref1_6 [100000, 100096]
+INFO: splitBAM1= samtools view hifi.sort.bam STR086483_0_ref1_6:99000-101096>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAG', 'AGC', 'GCA', 'CTG', 'GCT', 'TGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 2
-INFO: short_repeat_id_list 1
-INFO: repeat_id_list 33
+INFO: no_repeat_id_list 3
+INFO: short_repeat_id_list 0
+INFO: repeat_id_list 30
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 31 1
+INFO: nonRepeatinLongRead= 30 2
 INFO: tol_info=['', 0, 0]
-INFO: allocr:27:1, 28:3, 46:1, 47:16, 66:1, 83:1, 84:5, 85:2, 86:1, 
+INFO: allocr:33:2, 34:1, 44:2, 45:2, 52:9, 53:1, 63:13, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -417,20 +417,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str086483_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR096067_0_ref1_8 [100000, 100096]
-INFO: splitBAM1= samtools view hifi.sort.bam STR096067_0_ref1_8:99000-101096>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR096067_0_ref1_8 [100000, 100087]
+INFO: splitBAM1= samtools view hifi.sort.bam STR096067_0_ref1_8:99000-101087>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CCG', 'CGC', 'GCC', 'CGG', 'GCG', 'GGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 4
-INFO: short_repeat_id_list 2
-INFO: repeat_id_list 24
+INFO: no_repeat_id_list 8
+INFO: short_repeat_id_list 3
+INFO: repeat_id_list 26
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 22 2
+INFO: nonRepeatinLongRead= 22 7
 INFO: tol_info=['', 0, 0]
-INFO: allocr:32:18, 106:2, 107:1, 109:1, 
+INFO: allocr:29:10, 30:1, 127:5, 128:2, 129:4, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -439,20 +439,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str096067_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR098893_0_ref1_9 [100000, 100054]
-INFO: splitBAM1= samtools view hifi.sort.bam STR098893_0_ref1_9:99000-101054>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR098893_0_ref1_9 [100000, 100090]
+INFO: splitBAM1= samtools view hifi.sort.bam STR098893_0_ref1_9:99000-101090>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAA', 'AAC', 'ACA', 'TTG', 'GTT', 'TGT']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 12
-INFO: short_repeat_id_list 3
-INFO: repeat_id_list 37
+INFO: no_repeat_id_list 4
+INFO: short_repeat_id_list 4
+INFO: repeat_id_list 31
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 34 6
+INFO: nonRepeatinLongRead= 24 5
 INFO: tol_info=['', 0, 0]
-INFO: allocr:19:13, 121:1, 123:2, 124:13, 125:5, 
+INFO: allocr:30:1, 31:11, 850:2, 852:2, 853:3, 854:2, 855:1, 857:2, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -461,20 +461,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str098893_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR104098_0_ref1_X [100000, 100063]
-INFO: splitBAM1= samtools view hifi.sort.bam STR104098_0_ref1_X:99000-101063>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR104098_0_ref1_X [100000, 100051]
+INFO: splitBAM1= samtools view hifi.sort.bam STR104098_0_ref1_X:99000-101051>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CAG', 'AGC', 'GCA', 'CTG', 'GCT', 'TGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 3
-INFO: short_repeat_id_list 1
-INFO: repeat_id_list 30
+INFO: no_repeat_id_list 13
+INFO: short_repeat_id_list 0
+INFO: repeat_id_list 24
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 29 2
+INFO: nonRepeatinLongRead= 28 6
 INFO: tol_info=['', 0, 0]
-INFO: allocr:21:15, 48:14, 
+INFO: allocr:17:14, 58:2, 59:4, 60:8, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -483,20 +483,20 @@ INFO: rm samfile rm align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_
 INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str104098_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
-INFO: STR106176_0_ref1_X [100000, 100084]
-INFO: splitBAM1= samtools view hifi.sort.bam STR106176_0_ref1_X:99000-101084>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
+INFO: STR106176_0_ref1_X [100000, 100102]
+INFO: splitBAM1= samtools view hifi.sort.bam STR106176_0_ref1_X:99000-101102>align/m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam
 INFO: patset ['CCG', 'CGC', 'GCC', 'CGG', 'GCG', 'GGC']
 INFO: trf align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa 2 7 4 80 10 100 6 -h -ngs > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa_2_7_4_80_10_100_6.res
 INFO: splitfn align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa
 INFO: spfnbam align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
-INFO: no_repeat_id_list 9
-INFO: short_repeat_id_list 5
+INFO: no_repeat_id_list 8
+INFO: short_repeat_id_list 4
 INFO: repeat_id_list 33
 INFO: reAlign bwa mem  -k8 -W8 -r7  -A1 -B1 -O1 -E1 -L0 -t 1 -v 2 /test1.simu_ref2.fasta align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6.fa | samtools view -S -b | samtools sort > align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
 INFO: expRegionInLongRead= 0 0
-INFO: nonRepeatinLongRead= 28 3
+INFO: nonRepeatinLongRead= 28 4
 INFO: tol_info=['', 0, 0]
-INFO: allocr:28:17, 700:1, 701:2, 702:2, 703:2, 704:2, 705:1, 706:1, 
+INFO: allocr:34:12, 437:1, 438:2, 439:3, 440:4, 442:2, 443:2, 445:2, 
 INFO: rm split_norep_fn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_split_norep.fa
 INFO: rm spfnbam_bai rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam.bai
 INFO: rm spfnbam rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa2_7_4_80_10_100_6_sorted.bam
@@ -506,52 +506,52 @@ INFO: rm trf_resfn rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1
 INFO: rm fafile rm align//m.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.sam.fa
 INFO: rm spfnbam_sam_interest rm align/str106176_0.gmm_GapCorrection1_FlankLength30_SplitAndReAlign1_2_7_4_80_10_100_hg38_comp_Nanopore_I0.120_D0.020_S0.020.alignment.sam
 INFO: 
-INFO:       p2sp ['str020299_0', 19.333333333333332, [19, 19], 'allocr:19:22, 51:3, 52:9,', 34, 5]
-INFO:       p2sp ['str024014_0', 25.333333333333332, [26, 443], 'allocr:26:17, 439:1, 440:1, 441:3, 443:2, 444:3, 445:1, 446:1,', 29, 6]
-INFO:       p2sp ['str027626_0', 15.333333333333334, [14, 25], 'allocr:14:1, 15:21, 24:1, 25:13,', 36, 2]
-INFO:       p2sp ['str028289_0', 9.333333333333334, [28, 34], 'allocr:15:4, 28:13, 29:1, 33:1, 34:13,', 32, 1]
-INFO:       p2sp ['str030369_0', 29.333333333333332, [29, 59], 'allocr:29:19, 57:1, 58:7, 59:8,', 35, 3]
-INFO:       p2sp ['str038145_0', 26.333333333333332, [26, 26], 'allocr:26:11, 49:3, 50:6,', 20, 6]
-INFO:       p2sp ['str046225_0', 10.333333333333334, [10, 10], 'allocr:10:13, 31:1, 32:10,', 24, 2]
-INFO:       p2sp ['str046343_0', 12.333333333333334, [12, 99], 'allocr:11:1, 12:16, 97:2, 98:1, 99:8, 100:5,', 33, 6]
-INFO:       p2sp ['str055111_0', 15.333333333333334, [15, 25], 'allocr:15:4, 16:11, 24:3, 25:12,', 30, 2]
-INFO:       p2sp ['str055451_0', 16.333333333333332, [16, 16], 'allocr:16:16, 1033:1, 1036:1, 1037:1, 1039:1, 1041:1,', 21, 9]
-INFO:       p2sp ['str061348_0', 2.2, [0, 0], 'allocr:2:16, 69:8,', 24, 2]
-INFO:       p2sp ['str063353_0', 12.2, [12, 12], 'allocr:12:15,', 15, 16]
-INFO:       p2sp ['str066142_0', 19.333333333333332, [19, 376], 'allocr:19:2, 20:11, 372:1, 373:1, 374:1, 375:3, 376:4, 377:1, 378:2,', 26, 8]
-INFO:       p2sp ['str068017_0', 22.25, [22, 22], 'allocr:22:29,', 29, 11]
-INFO:       p2sp ['str070537_0', 21.333333333333332, [21, 103], 'allocr:20:1, 21:22, 101:1, 103:4, 104:5,', 33, 6]
-INFO:       p2sp ['str071869_0', 20.333333333333332, [20, 27], 'allocr:19:1, 20:17, 26:1, 27:19,', 38, 4]
-INFO:       p2sp ['str081631_0', 30.333333333333332, [30, 65], 'allocr:30:17, 63:1, 65:4, 66:8,', 30, 2]
-INFO:       p2sp ['str082916_0', 17.333333333333332, [17, 17], 'allocr:17:20, 27:16,', 36, 4]
-INFO:       p2sp ['str086483_0', 27.333333333333332, [47, 47], 'allocr:27:1, 28:3, 46:1, 47:16, 66:1, 83:1, 84:5, 85:2, 86:1,', 31, 1]
-INFO:       p2sp ['str096067_0', 32.333333333333336, [32, 32], 'allocr:32:18, 106:2, 107:1, 109:1,', 22, 2]
-INFO:       p2sp ['str098893_0', 18.333333333333332, [123, 125], 'allocr:19:13, 121:1, 123:2, 124:13, 125:5,', 34, 6]
-INFO:       p2sp ['str104098_0', 21.333333333333332, [21, 21], 'allocr:21:15, 48:14,', 29, 2]
-INFO:       p2sp ['str106176_0', 28.333333333333332, [28, 702], 'allocr:28:17, 700:1, 701:2, 702:2, 703:2, 704:2, 705:1, 706:1,', 28, 3]
+INFO:       p2sp ['str020299_0', 33.333333333333336, [33, 84], 'allocr:33:18, 82:3, 83:8, 84:5,', 34, 3]
+INFO:       p2sp ['str024014_0', 14.333333333333334, [14, 15], 'allocr:14:2, 15:16, 360:1, 361:3, 362:2, 363:2,', 26, 7]
+INFO:       p2sp ['str027626_0', 15.333333333333334, [25, 25], 'allocr:15:16, 16:1, 25:22,', 39, 2]
+INFO:       p2sp ['str028289_0', 10.333333333333334, [29, 29], 'allocr:10:3, 12:3, 13:1, 29:19, 30:1, 31:9,', 36, 1]
+INFO:       p2sp ['str030369_0', 26.333333333333332, [78, 80], 'allocr:26:12, 78:5, 79:4, 80:5,', 26, 2]
+INFO:       p2sp ['str038145_0', 22.333333333333332, [22, 52], 'allocr:22:18, 50:1, 51:3, 52:3, 53:8,', 33, 3]
+INFO:       p2sp ['str046225_0', 5.333333333333333, [23, 23], 'allocr:5:11, 22:1, 23:22,', 34, 3]
+INFO:       p2sp ['str046343_0', 27.333333333333332, [27, 105], 'allocr:26:1, 27:17, 103:1, 104:2, 105:3, 106:4,', 28, 4]
+INFO:       p2sp ['str055111_0', 15.333333333333334, [16, 25], 'allocr:15:1, 16:16, 24:2, 25:12,', 31, 6]
+INFO:       p2sp ['str055451_0', 10.333333333333334, [10, 10], 'allocr:10:12, 11:1, 831:1, 841:1, 843:1, 844:1,', 17, 7]
+INFO:       p2sp ['str061348_0', 2.2, [61, 61], 'allocr:2:22, 60:2, 61:17,', 41, 2]
+INFO:       p2sp ['str063353_0', 27.2, [27, 27], 'allocr:27:17,', 17, 19]
+INFO:       p2sp ['str066142_0', 9.333333333333334, [10, 108], 'allocr:10:14, 106:3, 107:7, 108:4,', 28, 4]
+INFO:       p2sp ['str068017_0', 30.25, [30, 30], 'allocr:30:14,', 14, 21]
+INFO:       p2sp ['str070537_0', 18.333333333333332, [18, 111], 'allocr:17:1, 18:17, 109:1, 110:1, 111:3, 112:6, 113:6,', 35, 5]
+INFO:       p2sp ['str071869_0', 20.333333333333332, [28, 28], 'allocr:19:1, 20:14, 27:1, 28:22,', 38, 0]
+INFO:       p2sp ['str081631_0', 18.333333333333332, [85, 85], 'allocr:18:10, 83:2, 84:5, 85:4, 86:5, 87:1,', 27, 2]
+INFO:       p2sp ['str082916_0', 17.333333333333332, [17, 27], 'allocr:16:2, 17:17, 18:1, 27:12,', 32, 2]
+INFO:       p2sp ['str086483_0', 32.333333333333336, [53, 53], 'allocr:33:2, 34:1, 44:2, 45:2, 52:9, 53:1, 63:13,', 30, 2]
+INFO:       p2sp ['str096067_0', 29.333333333333332, [128, 129], 'allocr:29:10, 30:1, 127:5, 128:2, 129:4,', 22, 7]
+INFO:       p2sp ['str098893_0', 30.333333333333332, [31, 853], 'allocr:30:1, 31:11, 850:2, 852:2, 853:3, 854:2, 855:1, 857:2,', 24, 5]
+INFO:       p2sp ['str104098_0', 17.333333333333332, [59, 60], 'allocr:17:14, 58:2, 59:4, 60:8,', 28, 6]
+INFO:       p2sp ['str106176_0', 34.333333333333336, [439, 443], 'allocr:34:12, 437:1, 438:2, 439:3, 440:4, 442:2, 443:2, 445:2,', 28, 4]
 INFO: 
 INFO:  	p2sp
-INFO: str020299_0	 19 19;
-INFO: str024014_0	 26 443;
-INFO: str027626_0	 14 25;
-INFO: str028289_0	 28 34;
-INFO: str030369_0	 29 59;
-INFO: str038145_0	 26 26;
-INFO: str046225_0	 10 10;
-INFO: str046343_0	 12 99;
-INFO: str055111_0	 15 25;
-INFO: str055451_0	 16 16;
-INFO: str061348_0	 0 0;
-INFO: str063353_0	 12 12;
-INFO: str066142_0	 19 376;
-INFO: str068017_0	 22 22;
-INFO: str070537_0	 21 103;
-INFO: str071869_0	 20 27;
-INFO: str081631_0	 30 65;
-INFO: str082916_0	 17 17;
-INFO: str086483_0	 47 47;
-INFO: str096067_0	 32 32;
-INFO: str098893_0	 123 125;
-INFO: str104098_0	 21 21;
-INFO: str106176_0	 28 702;
+INFO: str020299_0	 33 84;
+INFO: str024014_0	 14 15;
+INFO: str027626_0	 25 25;
+INFO: str028289_0	 29 29;
+INFO: str030369_0	 78 80;
+INFO: str038145_0	 22 52;
+INFO: str046225_0	 23 23;
+INFO: str046343_0	 27 105;
+INFO: str055111_0	 16 25;
+INFO: str055451_0	 10 10;
+INFO: str061348_0	 61 61;
+INFO: str063353_0	 27 27;
+INFO: str066142_0	 10 108;
+INFO: str068017_0	 30 30;
+INFO: str070537_0	 18 111;
+INFO: str071869_0	 28 28;
+INFO: str081631_0	 85 85;
+INFO: str082916_0	 17 27;
+INFO: str086483_0	 53 53;
+INFO: str096067_0	 128 129;
+INFO: str098893_0	 31 853;
+INFO: str104098_0	 59 60;
+INFO: str106176_0	 439 443;
 INFO: 

@@ -1,4 +1,5 @@
 # hg19.fasta is human reference genome sequence file
+#ln -s <path_to_hg19>/hg19.fasta ./hg19.fasta
 bash ../simu2.sh hg19.fasta known_str2.txt 0 hifi 0 01234 0
 cd simu_0;
 rm hifi.sort.bam hifi.sort.bam.bai ccs.fasta.gz
