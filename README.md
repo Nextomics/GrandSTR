@@ -21,14 +21,7 @@ Third party softwares:
 
 ## Install
 
-create symbolic link to TRF source codes: 
-
-```bash
-ln -s <TRF-4.09.1_dir>/src ./TRF-4.09.1_src
-```
-
-
-To build align.so, GrandSTR_lib.so, utils_lib.so, deal_str.so, trf_lib.so, run:
+To build align.so, GrandSTR_lib.so, utils_lib.so, deal_str.so, etc., run:
 
 ```bash
 python setup.py build_ext -i
